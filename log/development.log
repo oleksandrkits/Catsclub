@@ -3248,3 +3248,243 @@ Processing by FavouritesController#index as HTML
 Completed 200 OK in 951ms (Views: 16.7ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:36:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 963ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:40:09 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 960ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:40:39 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 999ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:40:56 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 957ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:41:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 945ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:41:38 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 937ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:41:56 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 988ms (Views: 13.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:44:45 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (7.1ms)
+Completed 500 Internal Server Error in 953ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x00007fba040240c0>):
+     9: <body>
+    10:   <h1>My favourite cats are:</h1>
+    11: 
+    12:   <% @resp.each do |img| %>
+    13:   Name: <%= img.id %>
+    14:   <% end %>
+    15: 
+  
+app/views/favourites/index.html.erb:12:in `_app_views_favourites_index_html_erb__2668324442009055475_70218219319820'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:45:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 898ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `to_a' for #<String:0x00007fb9f47cedf8>
+Did you mean?  to_f
+               to_r
+               to_i
+               to_s
+               to_d
+               to_c):
+  
+app/controllers/favourites_controller.rb:17:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:45:56 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (5.3ms)
+Completed 500 Internal Server Error in 939ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x00005640c8ac06e8>):
+     9: <body>
+    10:   <h1>My favourite cats are:</h1>
+    11: 
+    12:   <% @resp.each do |img| %>
+    13:   Name: <%= 3+1 %>
+    14:   <% end %>
+    15: 
+  
+app/views/favourites/index.html.erb:12:in `_app_views_favourites_index_html_erb__2668324442009055475_47418122130100'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:47:22 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 969ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:47:51 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 941ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x00007fb9e8acd650>):
+     9: <body>
+    10:   <h1>My favourite cats are:</h1>
+    11:   <%=@resp %>
+    12:   <% @resp.each do |img| %>
+    13:   Name: <%= img %>
+    14:   <% end %>
+    15: 
+  
+app/views/favourites/index.html.erb:12:in `_app_views_favourites_index_html_erb__2668324442009055475_70218224647420'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:49:18 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 959ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:49:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (6.4ms)
+Completed 500 Internal Server Error in 893ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `to_a' for #<String:0x00007fb9f0becd30>
+Did you mean?  to_f
+               to_r
+               to_i
+               to_s
+               to_d
+               to_c):
+     8: </head>
+     9: <body>
+    10:   <h1>My favourite cats are:</h1>
+    11:   <%=@resp.to_a %>
+    12:   <%# @resp.each do |img| %>
+    13: <!--  Name: <%#= img %>-->
+    14:   <%# end %>
+  
+app/views/favourites/index.html.erb:11:in `_app_views_favourites_index_html_erb__2668324442009055475_70218292336740'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:50:29 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 970ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:50:52 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 919ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:51:10 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 918ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:53:03 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1059ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:54:56 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 941ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 17:55:05 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 17:55:14 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 965ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 17:55:32 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"lUE0I4qKP30t7OyBjtQMracp/NMMvNOcny3k3eGdjtTdQIANThI7pLNjxGzrdF7HYKDZ6FrOyW8rvGPISjz4sg==", "image_id"=>"7pj", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 45870ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 17:56:18 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 909ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 18:00:01 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 18:00:08 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"oxHuxVPqz96CRcJqFYk5Ejk6YMOe+dgwqAh8kizGF7brEFrrl3LLBxzK6odwKWt4/rNF+MiLwsMcmfuHh2dh0A==", "image_id"=>"12t", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1006ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 18:00:10 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 901ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+

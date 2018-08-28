@@ -7,6 +7,11 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>My favourite cat is <%= @resp %></h1>
+  <h1>My favourite cats are:</h1>
+  <% @resp.each do |img| %>
+  Name: <%= img['image_id'] %>
+  <br>
+  <% end %>
+
 </body>
 </html>
