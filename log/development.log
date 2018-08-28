@@ -3488,3 +3488,373 @@ Processing by FavouritesController#index as HTML
 Completed 200 OK in 901ms (Views: 17.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-28 21:59:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 8902ms (Views: 598.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 21:59:17 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 72ms (Views: 65.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 21:59:25 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 102ms (Views: 95.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 21:59:30 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"EENS9q2WlQQNk1EpVNY7p3c5v/0Hbrm4zRGgXK/MuprTpN0zc/4yW2Kc7gbHBr6x9TX/ywJNWi/NASEzc135Rg==", "image_id"=>"1ps", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 944ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 21:59:31 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1050ms (Views: 58.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:08:07 +0300
+  
+SyntaxError (/home/olexandr/projects/Catsclub/app/controllers/favourites_controller.rb:39: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+      P      'sub_id': @user_id
+             ^):
+  
+app/controllers/favourites_controller.rb:39: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:08:26 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"EENS9q2WlQQNk1EpVNY7p3c5v/0Hbrm4zRGgXK/MuprTpN0zc/4yW2Kc7gbHBr6x9TX/ywJNWi/NASEzc135Rg==", "image_id"=>"1ps", "sub_id"=>"nfzh4j"}
+Completed 500 Internal Server Error in 535ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `url' for #<FavouritesController:0xb4088220>
+Did you mean?  uri
+               URI):
+  
+app/controllers/favourites_controller.rb:29:in `create'
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:08:43 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"EENS9q2WlQQNk1EpVNY7p3c5v/0Hbrm4zRGgXK/MuprTpN0zc/4yW2Kc7gbHBr6x9TX/ywJNWi/NASEzc135Rg==", "image_id"=>"1ps", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 15984ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:08:59 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1071ms (Views: 87.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:11:28 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6067ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:11:36 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1019ms (Views: 32.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 22:11:43 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 74ms (Views: 61.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:12:00 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"kaqsg3JFVkuO6fqMQbwzsJn1OhNa1b28Urcf0M5RTnxSTSNGrC3xFOHmRaPSbLamG/l6JV/2XitSp56/EsANoA==", "image_id"=>"20k", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 966ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:12:01 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1026ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:14:47 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 6035ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:14:57 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1101ms (Views: 91.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 22:15:05 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 101ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:15:08 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 981ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:15:09 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1061ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:15:59 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 5961ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:16:05 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1032ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:18:18 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 6039ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:18:24 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1013ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:20:19 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 6021ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:20:25 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 1168ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:20:41 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 971ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:20:42 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1034ms (Views: 63.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:21:13 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 964ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:21:14 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1112ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:21:26 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1039ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:21:27 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1148ms (Views: 54.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:23:22 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 5984ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:23:28 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1022ms (Views: 41.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:24:53 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"r619i9yPx0/lYrEJXQS1Bie4S21nbSN/jQMEfPPUyHtsSvJOAudgEIptDibO1DAQpbQLW2JOwOiNE4UTL0WLpw==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1054ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:24:55 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1036ms (Views: 45.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 22:42:03 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 550ms (Views: 544.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:42:12 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"JFkqG29Ecw4v2Fbsc1qfz4chZQzE5/KWeWa+Af7GO4XnvqXesSzUUUDX6cPgihrZBS0lOsHEEQF5dj9uIld4WQ==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Completed 500 Internal Server Error in 817ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `j4' for #<FavouritesController:0xb2d309e8>
+Did you mean?  j):
+  
+app/controllers/favourites_controller.rb:38:in `create'
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:42:31 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"JFkqG29Ecw4v2Fbsc1qfz4chZQzE5/KWeWa+Af7GO4XnvqXesSzUUUDX6cPgihrZBS0lOsHEEQF5dj9uIld4WQ==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Completed 500 Internal Server Error in 424ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `j4' for #<FavouritesController:0xb45dc4ec>
+Did you mean?  j):
+  
+app/controllers/favourites_controller.rb:38:in `create'
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 22:42:39 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 42ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:42:42 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"qLDCBU/mqPb8To+WU5vwqGteEcL0TqoDAR+0ptkZLQ5rV03AkY4PqZNBMLnAS3W+6VJR9PFtSZQBDzXJBYhu0g==", "image_id"=>"j4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 11100ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:42:54 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1004ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:45:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6100ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:10 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1123ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:13 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 1096ms (Views: 68.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1106ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 1080ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:21 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1076ms (Views: 70.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 22:46:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6099ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 22:46:40 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 22:46:45 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"qmMWNcn/W/fdXU70goNgZGiyH8VniMyNjfysZPNiZlNphJnwF5f8qLJS8dsRU+Vy6r5f82KrLxqN7C0LL/Mljw==", "image_id"=>"6qu", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 981ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:46:46 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1006ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+

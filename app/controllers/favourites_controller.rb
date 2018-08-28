@@ -29,7 +29,7 @@ class FavouritesController < ApplicationController
     http = Net::HTTP.new(uri.host, uri.port)
     http.use_ssl = true
 
-    header = {'Content-Type': 'text/json',
+    header = {'Content-Type': 'application/json',
               'x-api-key': @api_key
     }
 
@@ -39,6 +39,7 @@ class FavouritesController < ApplicationController
             'sub_id': @user_id
     }
 
+    puts user.to_json
     request.body = user.to_json
     response = http.request(request)
     puts response.read_body
