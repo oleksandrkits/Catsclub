@@ -1,0 +1,21 @@
+Started GET "/" for 127.0.0.1 at 2018-08-28 11:40:05 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 13ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 11:41:32 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 11:41:36 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (1.9ms)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
