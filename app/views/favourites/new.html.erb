@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Form</title>
+</head>
+<body>
+  <form accept-charset="UTF-8" action="/favourites" method="post">
+    <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
+    IMG ID <input name="image_id" value="">
+    <input name="sub_id" type="hidden" value="<%=@user_id %>" />
+    <button type="submit" value="Submit">Submit</button>
+  </form>
+</body>
+</html>
+
+
+
