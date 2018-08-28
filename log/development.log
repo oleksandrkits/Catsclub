@@ -3858,3 +3858,380 @@ Processing by FavouritesController#index as HTML
 Completed 200 OK in 1006ms (Views: 38.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:59:26 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 6171ms (Views: 98.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 22:59:37 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 1163ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:00:17 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 1024ms (Views: 50.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:00:27 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1018ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-28 23:00:46 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 6074ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-28 23:01:05 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-28 23:01:08 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"J8vmOSCFttZGlCQXxn8PuwUQrVCB5EuXFkiO4RNxCVvkLGn8/u0RiSmbmzhVr4qthxztZoTHqAAWWA+Oz+BKhw==", "image_id"=>"5db", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1010ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:01:09 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1057ms (Views: 74.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:03:49 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 1050ms (Views: 36.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:04:07 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 1050ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:06:16 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 1113ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:15:21 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6006ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/favourites_controller.rb:7:in `request'
+Started POST "/__web_console/repl_sessions/b0326909c29793a2f4d7054ae1bbfeed/trace" for 127.0.0.1 at 2018-08-28 23:15:41 +0300
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:16:21 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 991ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1)):
+  
+app/controllers/favourites_controller.rb:7:in `request'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:17:22 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/favourites_controller.rb:9:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:18:01 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 5986ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/favourites_controller.rb:23:in `+'
+app/controllers/favourites_controller.rb:23:in `block in index'
+app/controllers/favourites_controller.rb:22:in `each'
+app/controllers/favourites_controller.rb:22:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:18:41 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 955ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/favourites_controller.rb:23:in `+'
+app/controllers/favourites_controller.rb:23:in `block in index'
+app/controllers/favourites_controller.rb:22:in `each'
+app/controllers/favourites_controller.rb:22:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:18:44 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2078ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:23:in `block in index'
+app/controllers/favourites_controller.rb:22:in `each'
+app/controllers/favourites_controller.rb:22:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:19:23 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 5997ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `map!' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:20:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:20:22 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1023ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:21:02 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 1114ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:22:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6487ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `resp' for #<FavouritesController:0xb2967000>
+Did you mean?  @resp):
+  
+app/controllers/favourites_controller.rb:24:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:22:40 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1391ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `resp' for #<FavouritesController:0xb2a6a3d0>
+Did you mean?  @resp):
+  
+app/controllers/favourites_controller.rb:24:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:23:15 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6943ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:26:in `block in index'
+app/controllers/favourites_controller.rb:24:in `each'
+app/controllers/favourites_controller.rb:24:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:25:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13957ms (Views: 48.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:27:31 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 13899ms (Views: 66.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:29:01 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 13933ms (Views: 46.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:36:43 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 6023ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:38:34 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 553ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `url' for #<FavouritesController:0xb5d936e4>
+Did you mean?  urls
+               URI):
+  
+app/controllers/favourites_controller.rb:20:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:38:59 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6462ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `url' for #<FavouritesController:0x0b724e48>
+Did you mean?  urls
+               URI):
+  
+app/controllers/favourites_controller.rb:26:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:39:18 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 8901ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8: </head>
+     9: <body>
+    10:   <h1>My favourite cats are:</h1>
+    11:   <% @urls.each do |img| %>
+    12:   ID: <%= img %>
+    13:   <br>
+    14:   <% end %>
+  
+app/views/favourites/index.html.erb:11:in `_app_views_favourites_index_html_erb___487394109__643200488'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:40:11 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6964ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:27:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:41:00 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8825ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:42:03 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 14531ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:45:45 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 7964ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:28:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:46:19 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2958ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:29:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:47:45 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 7086ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:29:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:48:31 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 3640ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `starts_with?' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:28:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:50:19 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2036ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:29:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:52:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6968ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:29:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:52:50 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1952ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:30:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-28 23:53:43 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 6993ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:32:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
