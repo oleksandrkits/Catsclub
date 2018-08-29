@@ -19,15 +19,6 @@ class SearchController < ApplicationController
     @time = Time.now
     @name = Faker::Name.name
     @avatar = Faker::Avatar.image
-    respond_to do |format|
-      format.html do
-        render
-      end
-      format.json do
-        render json: {
-            url: "https://78.media.tumblr.com/tumblr_lzhyni85ln1qzv52ko1_500.jpg"
-        }
-      end
-    end
+
   end
 end

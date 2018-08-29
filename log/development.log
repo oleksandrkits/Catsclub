@@ -6281,3 +6281,1596 @@ Completed 200 OK in 913ms (Views: 0.1ms | ActiveRecord: 0.0ms)
 Completed 200 OK in 912ms (Views: 1.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:06:51 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4235ms (Views: 55.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:06:56 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:06:56 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:06:56 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4157ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 4160ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 4158ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+  
+  
+TypeError (no implicit conversion of String into Integer):
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+  
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:07:40 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4143ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:07:44 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:07:44 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:07:44 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4042ms (ActiveRecord: 0.0ms)
+
+
+  
+Completed 500 Internal Server Error in 4048ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+TypeError (no implicit conversion of String into Integer):
+Completed 500 Internal Server Error in 4051ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+  
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:38:in `[]'
+app/controllers/favourites_controller.rb:38:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:32:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:08:59 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4155ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:03 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:03 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:03 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4038ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 4041ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+TypeError (no implicit conversion of String into Integer):
+TypeError (no implicit conversion of String into Integer):
+Completed 500 Internal Server Error in 4048ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+app/controllers/favourites_controller.rb:45:in `[]'
+app/controllers/favourites_controller.rb:45:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:39:in `index'
+  
+app/controllers/favourites_controller.rb:45:in `[]'
+app/controllers/favourites_controller.rb:45:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:39:in `index'
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:45:in `[]'
+app/controllers/favourites_controller.rb:45:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:39:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:53 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4054ms (Views: 18.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:57 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:57 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:09:57 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4088ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+Completed 500 Internal Server Error in 4087ms (ActiveRecord: 0.0ms)
+
+
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Completed 500 Internal Server Error in 4666ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:26 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4155ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:31 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:31 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:31 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4041ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+Completed 500 Internal Server Error in 4046ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+Completed 500 Internal Server Error in 4050ms (ActiveRecord: 0.0ms)
+
+
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:37 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4065ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:41 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:41 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:10:41 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4061ms (ActiveRecord: 0.0ms)
+
+
+  
+Completed 500 Internal Server Error in 4060ms (ActiveRecord: 0.0ms)
+
+
+TypeError (no implicit conversion of String into Integer):
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Completed 500 Internal Server Error in 4091ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+TypeError (no implicit conversion of String into Integer):
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+  
+app/controllers/favourites_controller.rb:39:in `[]'
+app/controllers/favourites_controller.rb:39:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:11:51 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4130ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:11:55 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:11:55 +0300
+Processing by FavouritesController#index as JSON
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:11:55 +0300
+Processing by FavouritesController#index as JSON
+Completed 500 Internal Server Error in 4037ms (ActiveRecord: 0.0ms)
+
+
+  
+TypeError (no implicit conversion of String into Integer):
+  
+app/controllers/favourites_controller.rb:40:in `[]'
+app/controllers/favourites_controller.rb:40:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Completed 500 Internal Server Error in 4041ms (ActiveRecord: 0.0ms)
+
+
+Completed 500 Internal Server Error in 4062ms (ActiveRecord: 0.0ms)
+
+
+  
+  
+TypeError (no implicit conversion of String into Integer):
+TypeError (no implicit conversion of String into Integer):
+  
+  
+app/controllers/favourites_controller.rb:40:in `[]'
+app/controllers/favourites_controller.rb:40:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+app/controllers/favourites_controller.rb:40:in `[]'
+app/controllers/favourites_controller.rb:40:in `block (2 levels) in index'
+app/controllers/favourites_controller.rb:33:in `index'
+Started GET "/images/1" for 127.0.0.1 at 2018-08-29 12:24:03 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/images/1" for 127.0.0.1 at 2018-08-29 12:26:20 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:26:48 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4249ms (Views: 60.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/0" for 127.0.0.1 at 2018-08-29 12:26:53 +0300
+Started GET "/images/1" for 127.0.0.1 at 2018-08-29 12:26:53 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+Started GET "/images/2" for 127.0.0.1 at 2018-08-29 12:26:53 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:35:13 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 4173ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:35:18 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:35:18 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:35:18 +0300
+  
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:41:08 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4143ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:41:12 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:41:12 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:41:12 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:44:31 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4151ms (Views: 19.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:44:35 +0300
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:44:35 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:44:35 +0300
+  
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:47:16 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4238ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:47:21 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:47:21 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:47:21 +0300
+  
+  
+  
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+NoMethodError (undefined method `make_response!' for ImagesController:Class):
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:33:in `serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.1) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.1) lib/action_dispatch/routing/route_set.rb:840:in `call'
+rack (2.0.5) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+actionpack (5.2.1) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.1) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.1) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:49:15 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4202ms (Views: 19.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+Processing by ImagesController#show as JSON
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/7k5" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+  
+Started GET "/4di" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+ActionController::RoutingError (No route matches [GET] "/7k5"):
+  
+  
+ActionController::RoutingError (No route matches [GET] "/4di"):
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/3rs" for 127.0.0.1 at 2018-08-29 12:49:20 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/3rs"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:56:29 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 874ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:58:23 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4154ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:58:28 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:58:28 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:58:28 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 806ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 809ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 810ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:58:36 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4269ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:58:41 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:58:41 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:58:41 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 813ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 811ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 815ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:58:53 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4077ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:58:57 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:58:57 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:58:57 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 818ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 818ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 817ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:59:07 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4127ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:59:12 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:59:12 +0300
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:59:12 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Completed 200 OK in 817ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 818ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 812ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 12:59:42 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4262ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 12:59:46 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 12:59:46 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 12:59:46 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 807ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 811ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 810ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/4di" for 127.0.0.1 at 2018-08-29 13:00:07 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SIOssOnALrAbjPLZdbzDvxpDTc6SkS0hTfhky+uYyqnX4zSI/cQGXEPEGCKgOsnZuP0PsRH9sEPRUEbQ038tDA==", "id"=>"4di"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 816ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:00:07 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4059ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:00:12 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:00:12 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:00:12 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 811ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 812ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 812ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/3rs" for 127.0.0.1 at 2018-08-29 13:00:42 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iIjHhBhnmHtOruQzaj3DgEYyv2cVwhz2Zg1j/NVcm70X6F+8DGOwlxbmDsi/u8nm5Iz9GJaugZT6pUHn7bt8GA==", "id"=>"3rs"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 885ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:00:43 +0300
+Processing by FavouritesController#index as HTML
+Started DELETE "/favourites/7k5" for 127.0.0.1 at 2018-08-29 13:00:44 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iIjHhBhnmHtOruQzaj3DgEYyv2cVwhz2Zg1j/NVcm70X6F+8DGOwlxbmDsi/u8nm5Iz9GJaugZT6pUHn7bt8GA==", "id"=>"7k5"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 822ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:00:45 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.5ms)
+Started DELETE "/favourites/7k5" for 127.0.0.1 at 2018-08-29 13:00:47 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iIjHhBhnmHtOruQzaj3DgEYyv2cVwhz2Zg1j/NVcm70X6F+8DGOwlxbmDsi/u8nm5Iz9GJaugZT6pUHn7bt8GA==", "id"=>"7k5"}
+Completed 200 OK in 4070ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 812ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:00:47 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4058ms (Views: 20.5ms | ActiveRecord: 0.0ms)
+
+
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 4072ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:00:52 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:00:52 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:00:52 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 819ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 805ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 807ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/4di" for 127.0.0.1 at 2018-08-29 13:04:41 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TcBBgdMxFESlZ5TXLKuY0Gb6A8zaady68EuII5fY8szSoNm5xzU8qP0vfiz5LZK2xERBs1kFQdhs46o4rz8VaQ==", "id"=>"4di"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 130866ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:06:52 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4177ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:06:57 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:06:57 +0300
+Processing by ImagesController#show as JSON
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:06:57 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 835ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 831ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 833ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/4di" for 127.0.0.1 at 2018-08-29 13:07:08 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8mgli7yELTkjqNFcNEW224yBARariu3W1gBi/M4npdhtCL2zqIAF1XvgO6fhw7y9Lj9DaSjmcLRKqEDn9sBCfQ==", "id"=>"4di"}
+Completed 500 Internal Server Error in 62904ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `new'
+app/controllers/favourites_controller.rb:67:in `destroy'
+Started DELETE "/favourites/4di" for 127.0.0.1 at 2018-08-29 13:08:25 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8mgli7yELTkjqNFcNEW224yBARariu3W1gBi/M4npdhtCL2zqIAF1XvgO6fhw7y9Lj9DaSjmcLRKqEDn9sBCfQ==", "id"=>"4di"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 64042ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:09:29 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4396ms (Views: 239.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:09:34 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:09:34 +0300
+Processing by ImagesController#show as JSON
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:09:34 +0300
+  Parameters: {"id"=>"3rs"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 830ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 829ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 830ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:12:31 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4173ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:12:36 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:12:36 +0300
+Processing by ImagesController#show as JSON
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:12:36 +0300
+  Parameters: {"id"=>"4di"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 832ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 833ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 835ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:25:04 +0300
+Processing by FavouritesController#index as HTML
