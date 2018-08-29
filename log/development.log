@@ -4235,3 +4235,70 @@ NoMethodError (undefined method `<<' for nil:NilClass):
 app/controllers/favourites_controller.rb:32:in `block in index'
 app/controllers/favourites_controller.rb:25:in `each'
 app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:08:05 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 1166ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 09:08:12 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 09:08:16 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"QgxFQC0MuYJr/5pQQoE0GcihiFWazE8ULWOKkAOGOTfdbN14OQiRbjO3cKuXBz5/ah/KKhmg0naxy6iLO2Hekg==", "image_id"=>"iv", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 820ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:08:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1619ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:32:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:09:15 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 906ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:09:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 920ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 09:09:34 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 09:09:42 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"qK0sbE0xDzWThjxj1V86p+at3XaMSdZuokHmJhjYm2o3zbRUWTUn2cvO1pgA2TDBRBOfCQ8lSww+6cQ9ID98zw==", "image_id"=>"1m4", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 818ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:09:43 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 829ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+

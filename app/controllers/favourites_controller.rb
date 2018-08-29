@@ -22,18 +22,18 @@ class FavouritesController < ApplicationController
     @resp.map! { |e| e['image_id'] }
     urls =  []
 
-    @resp.each do |e|
-      url = request_to_api(url_search + e.to_s)
-      puts url
-      puts url['message'].nil?
-      if url['message'].nil?
-        puts 'Some deletion code'
-      else
-        @urls << url['url']
-      end
-      puts @urlss
-      #@urls << url['url']
-    end
+    # @resp.each do |e|
+    #   url = request_to_api(url_search + e.to_s)
+    #   puts url
+    #   puts url['message'].nil?
+    #   if url['message'].nil?
+    #     puts 'Some deletion code'
+    #   else
+    #     @urls << url['url']
+    #   end
+    #   puts @urlss
+    #   @urls << url['url']
+    # end
 
 
   end
