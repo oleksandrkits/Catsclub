@@ -7874,3 +7874,447 @@ Completed 200 OK in 835ms (Views: 0.2ms | ActiveRecord: 0.0ms)
 
 Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:25:04 +0300
 Processing by FavouritesController#index as HTML
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:37:11 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.1ms)
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:37:14 +0300
+Completed 200 OK in 730077ms (Views: 198.3ms | ActiveRecord: 0.0ms)
+
+
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4204ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4174ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:37:30 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:37:30 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:37:30 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 834ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 833ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 834ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:39:13 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4131ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:39:17 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:39:17 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:39:17 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Completed 200 OK in 809ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 807ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 810ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:42:07 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (193.6ms)
+Completed 500 Internal Server Error in 4324ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `resp' for #<#<Class:0x00007f3cac4827f0>:0x00007f3cc0fff178>
+Did you mean?  @resp):
+    17:   <br>
+    18:   <% end %>
+    19: 
+    20:   <% resp.each do |img| %>
+    21:     <%= img['id'] %>
+    22:     <br>
+    23:   <% end %>
+  
+app/views/favourites/index.html.erb:20:in `_app_views_favourites_index_html_erb___3898403259457409192_69949415301580'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:42:22 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 4067ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Integer):
+    18:   <% end %>
+    19: 
+    20:   <% @resp.each do |img| %>
+    21:     <%= img['id'] %>
+    22:     <br>
+    23:   <% end %>
+    24: 
+  
+app/views/favourites/index.html.erb:21:in `[]'
+app/views/favourites/index.html.erb:21:in `block in _app_views_favourites_index_html_erb___3898403259457409192_69949582340100'
+app/views/favourites/index.html.erb:20:in `each'
+app/views/favourites/index.html.erb:20:in `_app_views_favourites_index_html_erb___3898403259457409192_69949582340100'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:42:39 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4076ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:42:43 +0300
+Processing by ImagesController#show as JSON
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:42:43 +0300
+  Parameters: {"id"=>"4di"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:42:43 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 814ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 814ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 1432ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:46:44 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4139ms (Views: 19.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:46:49 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:46:49 +0300
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:46:49 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 812ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 810ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 812ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:52:27 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 4231ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:52:32 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:52:32 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:52:32 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 829ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 833ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 830ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:53:11 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4184ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:53:15 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"4di"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:53:15 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:53:15 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 837ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 832ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 833ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/326" for 127.0.0.1 at 2018-08-29 13:53:20 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZBKOJgzZboqOvLXbQlXztUz/nIBRRewjxufkFU8wRaD7chYeGN1GZtb0XyCX0/nT7kHe/9IpcUFaT8YOd9eiBQ==", "id"=>"326"}
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:54:42 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 4294ms (Views: 153.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:54:47 +0300
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:54:47 +0300
+Started GET "/images/4di" for 127.0.0.1 at 2018-08-29 13:54:47 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Processing by ImagesController#show as JSON
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+  Parameters: {"id"=>"4di"}
+Completed 200 OK in 809ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 811ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 813ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/324" for 127.0.0.1 at 2018-08-29 13:54:54 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"135pQbLkxbP5xf3fyucOM1MiZ/+39Cd/ULT9YG+YCjBIHvF5puDtX6GNFyQfYQRV8ZwlgDSYuh3MHN97V3/tlQ==", "id"=>"324"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 825ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:54:55 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3253ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:54:58 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:54:58 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 806ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 811ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:55:23 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3267ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 13:55:27 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 13:55:27 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 811ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 817ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 13:58:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 1021ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 13:58:50 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 13:58:56 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"jajRbIJQa8dzQoAPlZmHo68f0/hDMLEinSivsIydYqESyElUllRDKysKavRAH43FDaGRh8BcLEABgI2rtHqFBA==", "image_id"=>"1o4", "sub_id"=>""}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 808ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 13:58:57 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:5:in `request_to_api'
+app/controllers/favourites_controller.rb:16:in `index'
+Started POST "/__web_console/repl_sessions/52780bb9cec9d7c11fc3c9d97ff6a84f/trace" for 127.0.0.1 at 2018-08-29 13:59:34 +0300
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:00:55 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:11:in `request_to_api'
+app/controllers/favourites_controller.rb:11:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 14:01:00 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1084ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 14:02:59 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 928ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 14:03:03 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 11.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 14:03:07 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"lQoz7Ik3EYjmGsmc+1x4f4ltk3ehXavdYvCL1EnHRg4KaqvUnTM5ZL5SI2cu2nIZK9PRCCIxNr/+WKnPcSChqw==", "image_id"=>"16s", "sub_id"=>""}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 828ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:03:08 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:11:in `request_to_api'
+app/controllers/favourites_controller.rb:9:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:03:49 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:11:in `request_to_api'
+app/controllers/favourites_controller.rb:9:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:03:53 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:11:in `request_to_api'
+app/controllers/favourites_controller.rb:9:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:04:24 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): ):
+  
+app/controllers/application_controller.rb:11:in `request_to_api'
+app/controllers/favourites_controller.rb:9:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:27:54 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3342ms (Views: 17.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 14:27:58 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 14:27:58 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Completed 200 OK in 812ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 812ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 14:28:02 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 865ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 14:28:08 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 14:28:12 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"mznNeYu7GAbWGHKcy3kBcGEXG0iyUecLE6G/tuKYTo0EWVVBn78w6o5QmGce/wsWw6lZNzE9emmPCZ2t2n+pKA==", "image_id"=>"7ph", "sub_id"=>""}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 839ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 14:28:13 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4069ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/7k5" for 127.0.0.1 at 2018-08-29 14:28:17 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"7k5"}
+Started GET "/images/3rs" for 127.0.0.1 at 2018-08-29 14:28:17 +0300
+Processing by ImagesController#show as JSON
+  Parameters: {"id"=>"3rs"}
+Completed 200 OK in 810ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 810ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+

@@ -9,11 +9,10 @@
 <body>
   <h1>My favourite cats are:</h1>
 
-  <% @urls.each do |img| %>
+  <% @urls.each_with_index do |img, index| %>
   <img class="image" src="https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png" image_id="<%= img['id'] %>"
        width="300" height="300" alt="">
-  <%= img %>
-  <a data-method="delete" href="/favourites/<%= img['id'] %>">Delete</a>
+  <a data-method="delete" href="/favourites/<%= @resp[index][1] %>">Delete</a>
   <br>
   <% end %>
 

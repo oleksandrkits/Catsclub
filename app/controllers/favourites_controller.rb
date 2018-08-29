@@ -4,16 +4,21 @@ require 'json'
 class FavouritesController < ApplicationController
 
   def index
+    @api_key = '3758c3ed-ad4f-4fa7-b181-746071587ee2'
+    @user_id = 'nfzh4j'
 
-    url_fav = 'https://api.thecatapi.com/v1/favourites/'
-    url_search = 'https://api.thecatapi.com/v1/images/'
-    @resp = request_to_api(url_fav)
+    @url_fav = 'https://api.thecatapi.com/v1/favourites/'
+    @url_search = 'https://api.thecatapi.com/v1/images/'
 
-    @resp.map! { |e| e['image_id'] }
-    @urls =  []
+
+    puts "URL FAV IS: #{@url_fav}"
+    @resp = request_to_api(@url_fav)
     puts @resp
+    @resp.map! { |e| [e['image_id'], e['id'] ]}
+    @urls =  []
+
     @resp.each do |e|
-      url = request_to_api(url_search + e.to_s)
+      url = request_to_api(@url_search + e[0].to_s)
       if url['message'].nil?
         @urls << url
       end
@@ -21,13 +26,14 @@ class FavouritesController < ApplicationController
 
   end
 
-  def new
-    @user_id = 'nfzh4j'
-  end
-
   def create
+
     @api_key = '3758c3ed-ad4f-4fa7-b181-746071587ee2'
     @user_id = 'nfzh4j'
+
+    @url_fav = 'https://api.thecatapi.com/v1/favourites/'
+    @url_search = 'https://api.thecatapi.com/v1/images/'
+
     uri = URI.parse('https://api.thecatapi.com/v1/favourites')
 
 
@@ -53,9 +59,12 @@ class FavouritesController < ApplicationController
   end
 
   def destroy
+
     @api_key = '3758c3ed-ad4f-4fa7-b181-746071587ee2'
     @user_id = 'nfzh4j'
 
+    @url_fav = 'https://api.thecatapi.com/v1/favourites/'
+    @url_search = 'https://api.thecatapi.com/v1/images/'
 
     header = {'Content-Type': 'application/json',
               'x-api-key': @api_key
@@ -64,8 +73,6 @@ class FavouritesController < ApplicationController
     uri = URI(url)
 
     puts 'hello'
-    byebug
-
     puts 'bye'
 
     http = Net::HTTP.new(uri.host, uri.port)
