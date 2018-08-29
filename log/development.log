@@ -4302,3 +4302,1982 @@ Processing by FavouritesController#index as HTML
 Completed 200 OK in 829ms (Views: 17.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:15:11 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 936ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 09:15:16 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 09:15:19 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"zR6no2qyrq4AvpvaHs+G8CaVRmz8qYKsF5ISTuwvAtJSfj+bfraGQlj2cSHLSYyWhCsEE3/FH86LOjBV1Mjldw==", "image_id"=>"8mp", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 835ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:15:20 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 845ms (Views: 14.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:27:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 922ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:27:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 826ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 09:28:01 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5W2o3D5k7zJ3JSFlZpv2i5wQi79jdchQCwtnKGy15eN6DTDkKmDH3i9ty56zHfztPq7JwOAZVTKXo0UzVFICRg==", "id"=>"288"}
+No template found for FavouritesController#destroy, rendering head :no_content
+Completed 204 No Content in 20ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:31:08 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 878ms (Views: 14.4ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 09:31:10 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"c9nop8xIJ15G8AYk13z/FW586vTWTVMjrUcYJwqddArsuXCf2EwPsh647N8C+vVzzMKoi1UhzkEx7zo8MnqTrw==", "id"=>"288"}
+Completed 500 Internal Server Error in 205ms (ActiveRecord: 0.0ms)
+
+
+  
+SocketError (Failed to open TCP connection to https://api.thecatapi.com:80 (getaddrinfo: Name or service not known)):
+  
+app/controllers/favourites_controller.rb:71:in `destroy'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 09:32:25 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 1033ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2479000296249880980_47419734642120'
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 09:32:38 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 820ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2479000296249880980_70091081481880'
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 09:38:13 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 920ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2479000296249880980_70091197487060'
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:38:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.4ms)
+Completed 500 Internal Server Error in 916ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'turbolinks' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:15
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__2479000296249880980_70091083316340'
+app/controllers/search_controller.rb:22:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:47:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 949ms (Views: 40.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:54:53 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 1121ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:14
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3598034972984333924_70047130451420'
+app/controllers/search_controller.rb:22:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:55:40 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 861ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (couldn't find file 'jquery' with type 'application/javascript'
+Checked in these paths: 
+  /home/employee2/projects/catsclub/app/assets/config
+  /home/employee2/projects/catsclub/app/assets/images
+  /home/employee2/projects/catsclub/app/assets/javascripts
+  /home/employee2/projects/catsclub/app/assets/stylesheets
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/coffee-rails-4.2.2/lib/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actioncable-5.2.1/lib/assets/compiled
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/activestorage-5.2.1/app/assets/javascripts
+  /home/employee2/.rvm/gems/ruby-2.5.1@catsclub/gems/actionview-5.2.1/lib/assets/compiled
+  /home/employee2/projects/catsclub/node_modules):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/javascripts/application.js:14
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__3598034972984333924_70047139601260'
+app/controllers/search_controller.rb:22:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 09:59:17 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1248ms (Views: 272.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 10:00:02 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 862ms (Views: 28.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:00:04 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6JspxnaUyKJzIiCHVW+Gtq6zH433c6aEd+ulg1lT15p3+7H+YpDgTitqynyA6YzQDA1d8nQfO+brQ4eYYbQwPw==", "id"=>"288"}
+No template found for FavouritesController#destroy, rendering head :no_content
+Completed 204 No Content in 437ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 10:02:50 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 885ms (Views: 19.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:02:55 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 901ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:05:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 923ms (Views: 16.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 10:07:54 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 863ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/289" for 127.0.0.1 at 2018-08-29 10:07:56 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Dif6ZbPouN3wygChcTJUQ4/49JhrNxhU4Yyz1FhnBrqRR2Jdp+yQMaiC6lqktF4lLUa25+hbhTZ9JJHPYIDhHw==", "id"=>"289"}
+No template found for FavouritesController#destroy, rendering head :no_content
+Completed 204 No Content in 17ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 10:08:29 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 901ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:08:31 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"6i2M6MG8UAebLJ0Rzg3Qh1WL+050IkGKSWP5OLtnIZx1TRTQ1bh468Nkd+obi9rh9zW5MfdO3OjVy9sjg4DGOQ==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:08:31 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 828ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:08:33 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Sw2V+sgwMoZYKXtorn8e1hWiMECtexGXdhlAywD6JPjUbQ3C3DQaagBhkZN7+RSwtxxyPy4XjPXqsWLQOB3DXQ==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:08:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 828ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:09:15 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 858ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:09:43 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"oBUFYO2b8ALb039UF36Vad3UgPPV9g+hB2yBUF7AYS0/dZ1Y+Z/Y7oObla/C+J8Pf2rCjFaaksObxKNLZieGiA==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:09:43 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 896ms (Views: 15.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:10:34 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 924ms (Views: 14.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:19:30 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 982ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:19:32 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 867ms (Views: 19.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:19:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 862ms (Views: 13.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:20:00 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 866ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:22:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1028ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:22:52 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 887ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:30:22 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 962ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:30:23 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 884ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:30:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 883ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:30:31 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 884ms (Views: 16.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:25 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 970ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:27 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 863ms (Views: 15.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:29 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 867ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:30 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 871ms (Views: 22.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:32 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 859ms (Views: 15.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:31:33 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 871ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:33:20 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 956ms (Views: 56.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:33:21 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 884ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:33:24 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 885ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:33:25 +0300
+Processing by SearchController#index as */*
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 884ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:07 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 925ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:08 +0300
+Processing by SearchController#index as */*
+  Parameters: {"search"=>{}}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 884ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:16 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 921ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:17 +0300
+Processing by SearchController#index as */*
+  Parameters: {"search"=>{}}
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 881ms (Views: 11.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 1001ms (Views: 56.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:34:42 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 846ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:37:58 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pmzsQHNvO83x/kpvVptxP0YUdGBWMPEKzNDpBpdLd1k5DHR4Z2sTIam2oJSDHXtZ5Ko2H9VcbGhQeMsdr6yQ/A==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:37:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 865ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:37:59 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 874ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:40:58 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"noetQ0nz171697CmNLcWvv/WP7I8SmJhNCcI8IoIoXsB5zV7Xff/USK/Wl3hMRzYXWh9zb8m/wOojyrrsu9G3g==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:40:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 925ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:40:59 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 844ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:41:18 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"xxQZW2aUUaeJPdutcMXH8n3eEU6llVGA/f//pDOWmXRYdIFjcpB5S9F1MValQ82U32BTMSb5zOJhV92/C3F+0Q==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:41:18 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 828ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:41:19 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 855ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:41:30 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 827ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:41:31 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 850ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:41:49 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"V+EbdRZ0+5e0aVeFjhGo8EYJPlPLQtN6rHdzNo26h/rIgYNNAnDTe+whvX5bl6KW5Ld8LEguThgw31EttV1gXw==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 6ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:41:49 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1015ms (Views: 206.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:41:50 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 893ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:42:35 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"yTeo5d6A9RYbhE0QOGK4CGrheRy2huglvM5I74L1BpJWVzDdyoTd+kPMp+vt5LJuyF87YzXqdUcgZmr0uhLhNw==", "id"=>"288"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `request_uri' for #<URI::Generic api.thecatapi.com/v1/favourites/288>):
+  
+app/controllers/favourites_controller.rb:80:in `new'
+app/controllers/favourites_controller.rb:80:in `destroy'
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:43:50 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 913ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:43:51 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 880ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:45:34 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 967ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:45:35 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 844ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:45:37 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 860ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:45:38 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 848ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:48:41 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 971ms (Views: 60.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:48:42 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 941ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:49:47 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 940ms (Views: 29.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:49:48 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 845ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/" for 127.0.0.1 at 2018-08-29 10:50:42 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 921ms (Views: 32.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:50:43 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 889ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:50:44 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"F3YQjHS5qdBrl5KNgrUL+Ur/axk6VvYZWtxwUAAjmrGIFoi0YL2BPDPfeHZXMwGf6EEpZrk6a3vGdFJLOMR9FA==", "id"=>"288"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `request_uri' for #<URI::Generic api.thecatapi.com/v1/favourites/288>):
+  
+app/controllers/favourites_controller.rb:82:in `new'
+app/controllers/favourites_controller.rb:82:in `destroy'
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:51:45 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"F3YQjHS5qdBrl5KNgrUL+Ur/axk6VvYZWtxwUAAjmrGIFoi0YL2BPDPfeHZXMwGf6EEpZrk6a3vGdFJLOMR9FA==", "id"=>"288"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `host' for "api.thecatapi.com/v1/favourites/288":String):
+  
+app/controllers/favourites_controller.rb:80:in `destroy'
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:52:23 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"F3YQjHS5qdBrl5KNgrUL+Ur/axk6VvYZWtxwUAAjmrGIFoi0YL2BPDPfeHZXMwGf6EEpZrk6a3vGdFJLOMR9FA==", "id"=>"288"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::ECONNREFUSED (Failed to open TCP connection to :80 (Connection refused - connect(2) for nil port 80)):
+  
+app/controllers/favourites_controller.rb:86:in `destroy'
+Started DELETE "/favourites/288" for 127.0.0.1 at 2018-08-29 10:55:35 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"F3YQjHS5qdBrl5KNgrUL+Ur/axk6VvYZWtxwUAAjmrGIFoi0YL2BPDPfeHZXMwGf6EEpZrk6a3vGdFJLOMR9FA==", "id"=>"288"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 928ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:55:36 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 830ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:55:37 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 846ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/289" for 127.0.0.1 at 2018-08-29 10:55:53 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"P8MWYBN+L66xLzNgq7dB5rjutHNKPKF9ellOstFXRHego45YB3oHQuln2Zt+MUuAGlD2DMlQPB/m8Wyp6bCj0g==", "id"=>"289"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 824ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:55:54 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 831ms (Views: 17.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:55:55 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/290" for 127.0.0.1 at 2018-08-29 10:55:55 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"XnFWEeNeB5xcCffcjezwPmGCG2gg1eh0dVbapOh9BrTBEc4p91ovcARBHSdYavpYwzxZF6O5dRbp/vi/0JrhEQ==", "id"=>"290"}
+Completed 200 OK in 847ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 812ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:55:56 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 822ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:55:57 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/291" for 127.0.0.1 at 2018-08-29 10:55:58 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gU6TXN+XW3XYw2oIttvnwuiN2gfJpZEIYy9mUmuEYrUeLgtky5NzmYCLgPNjXe2kSjOYeErJDGr/h0RJU2OFEA==", "id"=>"291"}
+Completed 200 OK in 851ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 811ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:55:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 828ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:55:59 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/292" for 127.0.0.1 at 2018-08-29 10:56:00 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LMkIDZ9DCsHAxQxmJDyJxOnVroXrHNbtYpuhyeWTmjCzqZA1i0ciLZiN5p3xuoOiS2vs+mhwS4/+M4PS3XR9lQ==", "id"=>"292"}
+Completed 200 OK in 910ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 815ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:01 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 837ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:01 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/293" for 127.0.0.1 at 2018-08-29 10:56:02 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vMI6QOWFkYjsNvFS2KECdVokxqit3USCoFJlXcGof50joqJ48YG5ZLR+G6kNJwgT+JqE1y6x2eA8+kdG+U+YOA==", "id"=>"293"}
+Completed 200 OK in 850ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 817ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:03 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 828ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:04 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/302" for 127.0.0.1 at 2018-08-29 10:56:04 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"7+H3Esx8tuIifACba8ppxBNg9oRmq3kAAqv3Li72s2FwgW8q2HieDno06mC+TGOisd60++XH5GKeA9U1FhFUxA==", "id"=>"302"}
+Completed 200 OK in 850ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 825ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:05 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 821ms (Views: 14.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:06 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/303" for 127.0.0.1 at 2018-08-29 10:56:06 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"kb9jEM+iMKPrqvHCHZ2mC1znnCIN+tVo7G3PKtZdq4EO3/so26YYT7PiGznIG6xt/lneXY6WSApwxe0x7rpMJA==", "id"=>"303"}
+Completed 200 OK in 843ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 818ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:07 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 833ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:08 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/320" for 127.0.0.1 at 2018-08-29 10:56:08 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PE+QxP9+BAYaPhsRqiB3z1/Pwfpua89IZ6JxydgZGOSjLwj863os6kJ28ep/pn2p/XGDhe0HUir7ClPS4P7/QQ==", "id"=>"320"}
+Completed 200 OK in 848ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 819ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:09 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 835ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:10 +0300
+Processing by SearchController#index as JSON
+Started DELETE "/favourites/321" for 127.0.0.1 at 2018-08-29 10:56:11 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"McVWk1BYa9bteaOzph2sQQAfB367vMhiZ0Hs8KfX4Gmupc6rRFxDOrUxSUhzm6YnoqFFATjQVQD76c7rnzAHzA==", "id"=>"321"}
+Completed 200 OK in 848ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 817ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:11 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 822ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:12 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 849ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/323" for 127.0.0.1 at 2018-08-29 10:56:15 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"GAsHohlRHIqQvDuYZO3ySbF25cyrAvrpMWQuf+Tr7HyHa5+aDVU0Zsj00WOxa/gvE8insyhuZ4utzAxk3AwL2Q==", "id"=>"323"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 835ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:16 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 834ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:17 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 849ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:18 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 864ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:18 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 842ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 10:56:26 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 15ms (Views: 14.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:26 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 882ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 10:56:29 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"eRflPBBRd8Oz+znGR1t0n0exVXO6lrg3tXpPpAtOcTDmd30EBFVfL+uz0z2S3X755Q8XDDn6JVUp0m2/M6mWlQ==", "image_id"=>"4di", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 825ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:56:30 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 832ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:56:31 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 844ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:57:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 1810ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:32:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 10:58:00 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 1688ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 10:58:02 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 873ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:04:41 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 299225ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `index'
+app/controllers/favourites_controller.rb:37:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:09:40 +0300
+Processing by SearchController#index as HTML
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:09:43 +0300
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 1225ms (Views: 280.7ms | ActiveRecord: 0.0ms)
+
+
+Processing by FavouritesController#index as HTML
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:09:57 +0300
+Completed 500 Internal Server Error in 13085ms (ActiveRecord: 0.0ms)
+
+
+  
+SystemExit (exit):
+  
+(byebug):1:in `exit'
+(byebug):1:in `block in send_action'
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 1241ms (Views: 283.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:10:00 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 881ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 11:11:27 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 309ms (Views: 303.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:11:28 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 965ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:11:30 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"dTXA2PuRPp5Z1Vh2ipqFtX660x/LLP947jMVqE8JAVHqVVjg75UWcgGdso1fHI/T3ASRYEhAYhpymzezd+7m9A==", "image_id"=>"45k", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 854ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:11:31 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2622ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:31:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:11:58 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 1184ms (Views: 300.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:12:00 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 924ms (Views: 5.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 11:12:05 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 299ms (Views: 288.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:12:05 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 902ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:12:15 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"RXKfvbrtfEJDQfMkj6aea6uQsE/eRUcyYiGpifNd/BraEgeFrulUrhsJGd9aIJQNCS7yMF0p2lD+iYuSy7obvw==", "image_id"=>"3rs", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 855ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:12:16 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2524ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:31:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:12:39 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"RXKfvbrtfEJDQfMkj6aea6uQsE/eRUcyYiGpifNd/BraEgeFrulUrhsJGd9aIJQNCS7yMF0p2lD+iYuSy7obvw==", "image_id"=>"3rs", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 926ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:12:40 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2534ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:31:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 11:14:47 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 307ms (Views: 297.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:14:48 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 949ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:14:49 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"5v7YuxBDW/922T7xduidJ8hyi8i7FdZEkKyOdckmyOF5nkCDBEdzEy6R1AqjbpdBaszJtzh5SyYMBKxu8cEvRA==", "image_id"=>"3rs", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 845ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:14:50 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2527ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:31:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:15:04 +0300
+Processing by FavouritesController#index as HTML
+Completed 500 Internal Server Error in 2436ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `<<' for nil:NilClass):
+  
+app/controllers/favourites_controller.rb:31:in `block in index'
+app/controllers/favourites_controller.rb:25:in `each'
+app/controllers/favourites_controller.rb:25:in `index'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:15:38 +0300
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:15:48 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 1037ms (Views: 170.8ms | ActiveRecord: 0.0ms)
+
+
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"5v7YuxBDW/922T7xduidJ8hyi8i7FdZEkKyOdckmyOF5nkCDBEdzEy6R1AqjbpdBaszJtzh5SyYMBKxu8cEvRA==", "image_id"=>"3rs", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 832ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:15:50 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 848ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:15:51 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 914ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:16:52 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 932ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:16:53 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 877ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:20:25 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3360ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:20:29 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 843ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:24:27 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3364ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:24:31 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 843ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:25:47 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 3497ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:25:51 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 869ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/%7B%22message%22=%3E%22Couldn't%20find%20an%20image%20matching%20the%20passed%20'id'%20of%2045k%22,%20%22status%22=%3E400%7D" for 127.0.0.1 at 2018-08-29 11:26:42 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SaG07zGm5houYDyMPAxNxjsZ5SwI9G3gzpYxzrLEfKbWwSzXJaLO9nYo1nfpikegmaenU4uY8IJSPhPViiObAw==", "id"=>"{\"message\"=>\"Couldn't find an image matching the passed 'id' of 45k\", \"status\"=>400}"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.thecatapi.com/v1/favourites/{"message"=>"Couldn't find an image matching the passed 'id' of 45k", "status"=>400}):
+  
+app/controllers/favourites_controller.rb:72:in `destroy'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:27:10 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3402ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:27:13 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 869ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/%7B%22message%22=%3E%22Couldn't%20find%20an%20image%20matching%20the%20passed%20'id'%20of%2045k%22,%20%22status%22=%3E400%7D" for 127.0.0.1 at 2018-08-29 11:27:31 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OL/Pi8XDSlThblt4xizkZu025NRN6RkfFVWgDSWu9DGn31ez0cdiuLkmsYMTqu4AT4imq86FhH2J/YIWHUkTlA==", "id"=>"{\"message\"=>\"Couldn't find an image matching the passed 'id' of 45k\", \"status\"=>400}"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+URI::InvalidURIError (bad URI(is not URI?): https://api.thecatapi.com/v1/favourites/{"message"=>"Couldn't find an image matching the passed 'id' of 45k", "status"=>400}):
+  
+app/controllers/favourites_controller.rb:72:in `destroy'
+Started DELETE "/favourites/%7B%22id%22=%3E%224di%22,%20%22url%22=%3E%22https://25.media.tumblr.com/tumblr_lkre9y03Hz1qhspilo1_400.gif%22,%20%22breeds%22=%3E[],%20%22categories%22=%3E[]%7D" for 127.0.0.1 at 2018-08-29 11:28:11 +0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/favourites/%7B%22id%22=%3E%224di%22,%20%22url%22=%3E%22https:/25.media.tumblr.com/tumblr_lkre9y03Hz1qhspilo1_400.gif%22,%20%22breeds%22=%3E[],%20%22categories%22=%3E[]%7D"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:28:52 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3376ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:28:55 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 870ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/" for 127.0.0.1 at 2018-08-29 11:28:57 +0300
+  
+ActionController::RoutingError (No route matches [DELETE] "/favourites"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:29:30 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3343ms (Views: 17.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:29:33 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:31:06 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3496ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:31:10 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 869ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:31:41 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3345ms (Views: 18.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/45k" for 127.0.0.1 at 2018-08-29 11:31:45 +0300
+Started GET "/4di" for 127.0.0.1 at 2018-08-29 11:31:45 +0300
+Started GET "/3rs" for 127.0.0.1 at 2018-08-29 11:31:45 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/4di"):
+  
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/3rs"):
+ActionController::RoutingError (No route matches [GET] "/45k"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:31:45 +0300
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Processing by SearchController#index as JSON
+Completed 200 OK in 923ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:32:02 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3351ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/4di" for 127.0.0.1 at 2018-08-29 11:32:06 +0300
+Started GET "/45k" for 127.0.0.1 at 2018-08-29 11:32:06 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/45k"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/3rs" for 127.0.0.1 at 2018-08-29 11:32:06 +0300
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:32:06 +0300
+Processing by SearchController#index as JSON
+  
+ActionController::RoutingError (No route matches [GET] "/3rs"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+  
+ActionController::RoutingError (No route matches [GET] "/4di"):
+  
+actionpack (5.2.1) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.1) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.1) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.1) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.1) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Completed 200 OK in 952ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:32:24 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3346ms (Views: 17.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:32:27 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 878ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:33:16 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3448ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:33:20 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 849ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/45k" for 127.0.0.1 at 2018-08-29 11:33:29 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"hx8Fts2ALyQ/ABetSK6wTWrwVZsNzLOVeBdPav9ynGAYf52O2YQHyGdI/VadKLoryE4X5I6gLvfkv21xx5V7xQ==", "id"=>"45k"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 812ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:33:29 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 3242ms (Views: 15.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:33:33 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 846ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/45k" for 127.0.0.1 at 2018-08-29 11:33:41 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8i/HkT9FD4epFrYlNM+xvkdzcCC508+3HM194PBkcMltT1+pK0Ena/FeXN7hSbvY5c0yXzq/UtWAZV/7yIOXbA==", "id"=>"45k"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 807ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:33:42 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3246ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:33:45 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 857ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:38:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3369ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:38:37 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 869ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:39:28 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3383ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:39:32 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 888ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:40:40 +0300
+  
+SyntaxError (/home/employee2/projects/catsclub/app/controllers/favourites_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end):
+  
+app/controllers/favourites_controller.rb:89: syntax error, unexpected end-of-input, expecting keyword_end
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:41:01 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3376ms (Views: 19.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:41:05 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:41:26 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3342ms (Views: 18.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:41:30 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:41:33 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3342ms (Views: 16.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:41:37 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 870ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:42:15 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3394ms (Views: 18.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:42:19 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 869ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:42:30 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3346ms (Views: 18.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:42:34 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 878ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:43:17 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3385ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:21 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 867ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:27 +0300
+Processing by SearchController#index as HTML
+  Rendering search/index.html.erb within layouts/application
+  Rendered search/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 926ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:28 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 877ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites/new" for 127.0.0.1 at 2018-08-29 11:43:32 +0300
+Processing by FavouritesController#new as HTML
+  Rendering favourites/new.html.erb within layouts/application
+  Rendered favourites/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:32 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 866ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/favourites" for 127.0.0.1 at 2018-08-29 11:43:36 +0300
+Processing by FavouritesController#create as HTML
+  Parameters: {"authenticity_token"=>"oi8Mv8i2v/AfnLRKSv+pgySv5M1AdfJVUuqGj8FB5/M9T5SH3LKXHEfUXrGfeaPlhhGmssMZbzfOQqSU+aYAVg==", "image_id"=>"7k5", "sub_id"=>"nfzh4j"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 842ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:43:37 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4175ms (Views: 20.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:41 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 866ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/favourites/4di" for 127.0.0.1 at 2018-08-29 11:43:53 +0300
+Processing by FavouritesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x87DfN2UH8MtNgMNwvFMEKvzcZeDohvYX+lj1s+mWhVYrltEyZA3L3V+6fYXd0Z2CU0z6ADOhrrDQUHN90G9sA==", "id"=>"4di"}
+Redirected to http://localhost:3000/favourites
+Completed 302 Found in 831ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:43:54 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4175ms (Views: 19.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:43:58 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:46:11 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4195ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:46:15 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 868ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:49:02 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4228ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:49:11 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4072ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:49:34 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4085ms (Views: 55.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:49:47 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4110ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:51:02 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4194ms (Views: 54.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:51:44 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 4066ms (Views: 16.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:53:00 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4155ms (Views: 56.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:55:22 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4245ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:55:50 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4173ms (Views: 17.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:57:48 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4186ms (Views: 58.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:57:52 +0300
+Processing by SearchController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:57:52 +0300
+Processing by SearchController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:57:52 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 913ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 921ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 924ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:57:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 4048ms (Views: 16.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:58:03 +0300
+Processing by SearchController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:58:03 +0300
+Processing by SearchController#index as JSON
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:58:03 +0300
+Processing by SearchController#index as JSON
+Completed 200 OK in 921ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 913ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 923ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/favourites" for 127.0.0.1 at 2018-08-29 11:58:58 +0300
+Processing by FavouritesController#index as HTML
+  Rendering favourites/index.html.erb within layouts/application
+  Rendered favourites/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 4149ms (Views: 18.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:59:02 +0300
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:59:02 +0300
+Started GET "/" for 127.0.0.1 at 2018-08-29 11:59:02 +0300
+Processing by SearchController#index as JSON
+Processing by SearchController#index as JSON
+Processing by SearchController#index as JSON
+Completed 200 OK in 903ms (Views: 0.2ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 913ms (Views: 0.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 912ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+

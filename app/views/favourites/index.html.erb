@@ -8,8 +8,11 @@
 </head>
 <body>
   <h1>My favourite cats are:</h1>
-  <% @resp.each do |img| %>
-  ID: <%= img %>
+
+  <% @urls.each do |img| %>
+  <img class="image" src="https://cdn1.iconfinder.com/data/icons/image-manipulations/100/13-512.png" image_id="<%= img['id'] %>"
+       width="300" height="300" alt="">
+  <a data-method="delete" href="/favourites/<%= img['id'] %>">Delete</a>
   <br>
   <% end %>
 

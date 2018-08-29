@@ -20,22 +20,14 @@ class FavouritesController < ApplicationController
     @resp = request_to_api(url_fav)
 
     @resp.map! { |e| e['image_id'] }
-    urls =  []
-
-    # @resp.each do |e|
-    #   url = request_to_api(url_search + e.to_s)
-    #   puts url
-    #   puts url['message'].nil?
-    #   if url['message'].nil?
-    #     puts 'Some deletion code'
-    #   else
-    #     @urls << url['url']
-    #   end
-    #   puts @urlss
-    #   @urls << url['url']
-    # end
-
-
+    @urls =  []
+    puts @resp
+    @resp.each do |e|
+      url = request_to_api(url_search + e.to_s)
+      if url['message'].nil?
+        @urls << url
+      end
+    end
   end
 
   def new
@@ -69,4 +61,29 @@ class FavouritesController < ApplicationController
     redirect_to "/favourites"
   end
 
+  def destroy
+    @api_key = '3758c3ed-ad4f-4fa7-b181-746071587ee2'
+    @user_id = 'nfzh4j'
+
+
+    header = {'Content-Type': 'application/json',
+              'x-api-key': @api_key
+    }
+    url = "https://api.thecatapi.com/v1/favourites/#{params['id']}"
+    uri = URI("https://api.thecatapi.com/v1/favourites/#{params['id']}")
+
+    http = Net::HTTP.new(uri.host, uri.port)
+    http.use_ssl = true
+
+    request = Net::HTTP::Delete.new(url)
+    request["Content-Type"] = 'application/json'
+    request["x-api-key"] = @api_key
+    response = http.request(request)
+    puts 'hello'
+    puts response.read_body
+    puts 'hola'
+
+    redirect_to "/favourites"
+
+  end
 end
